@@ -18,5 +18,22 @@ export const PRODUCTS: Product[] = [
     category: "Burgers",
     isAvailable: true
   },
-  // Agrega un par más para tener volumen
+  {
+    id: "2",
+    name: "Cheese Burger",
+    description: "Carne de res, doble queso, lechuga y tomate.",
+    price: 140,
+    image: "https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=500",  
+    category: "Burgers",
+    isAvailable: true
+  },
+  {
+    id: "3",
+    name: "Papas Fritas",
+    description: "Papas fritas crujientes con sal.",
+    price: 50,
+    image: "https://static.vecteezy.com/system/resources/previews/037/499/240/large_2x/ai-generated-french-fried-chips-free-png.png",
+    category: "Papas",
+    isAvailable: true
+  },
 ];
